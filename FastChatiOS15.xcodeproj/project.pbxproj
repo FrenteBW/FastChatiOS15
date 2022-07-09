@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC7CE06E6058D41D8BBD7E0 /* Pods_FastChatiOS15.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AEE8E1FF52139CF2E1924 /* Pods_FastChatiOS15.framework */; };
 		7A2A3CA7284DBD780027D750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CA6284DBD780027D750 /* AppDelegate.swift */; };
 		7A2A3CA9284DBD780027D750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CA8284DBD780027D750 /* SceneDelegate.swift */; };
-		7A2A3CAB284DBD780027D750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CAA284DBD780027D750 /* ViewController.swift */; };
 		7A2A3CAE284DBD780027D750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A3CAC284DBD780027D750 /* Main.storyboard */; };
 		7A2A3CB0284DBD7B0027D750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A3CAF284DBD7B0027D750 /* Assets.xcassets */; };
 		7A2A3CB3284DBD7B0027D750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A3CB1284DBD7B0027D750 /* LaunchScreen.storyboard */; };
+		7A2A3CBF284DBE9D0027D750 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CBE284DBE9D0027D750 /* WelcomeViewController.swift */; };
+		7A2A3CC1284DBEB50027D750 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CC0284DBEB50027D750 /* RegisterViewController.swift */; };
+		7A2A3CC3284DBED50027D750 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CC2284DBED50027D750 /* LoginViewController.swift */; };
+		7A2A3CC5284DBEEB0027D750 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A3CC4284DBEEB0027D750 /* ChatViewController.swift */; };
+		7A9D38BE286E906800BAA9C8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D38BD286E906800BAA9C8 /* Message.swift */; };
+		7A9D38C1286E999500BAA9C8 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D38BF286E999500BAA9C8 /* MessageCell.swift */; };
+		7A9D38C2286E999500BAA9C8 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9D38C0286E999500BAA9C8 /* MessageCell.xib */; };
+		7AC3E45D284EDD1800F17EF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3E45C284EDD1800F17EF2 /* GoogleService-Info.plist */; };
+		7AE842E7287523DD00C36B89 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7AE842E6287523DD00C36B89 /* IQKeyboardManagerSwift */; };
+		7AF282A3284EEFF4006A6384 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF282A2284EEFF4006A6384 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048AEE8E1FF52139CF2E1924 /* Pods_FastChatiOS15.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastChatiOS15.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9780B95B0DED87DBCBE62 /* Pods-FastChatiOS15.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastChatiOS15.debug.xcconfig"; path = "Target Support Files/Pods-FastChatiOS15/Pods-FastChatiOS15.debug.xcconfig"; sourceTree = "<group>"; };
 		7A2A3CA3284DBD780027D750 /* FastChatiOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastChatiOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2A3CA6284DBD780027D750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2A3CA8284DBD780027D750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A2A3CAA284DBD780027D750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A2A3CAD284DBD780027D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A2A3CAF284DBD7B0027D750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2A3CB2284DBD7B0027D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2A3CB4284DBD7B0027D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2A3CBE284DBE9D0027D750 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7A2A3CC0284DBEB50027D750 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7A2A3CC2284DBED50027D750 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A2A3CC4284DBEEB0027D750 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7A9D38BD286E906800BAA9C8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7A9D38BF286E999500BAA9C8 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		7A9D38C0286E999500BAA9C8 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		7AC3E45C284EDD1800F17EF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AF282A2284EEFF4006A6384 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8BD639592AA91E6F414B267 /* Pods-FastChatiOS15.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastChatiOS15.release.xcconfig"; path = "Target Support Files/Pods-FastChatiOS15/Pods-FastChatiOS15.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC7CE06E6058D41D8BBD7E0 /* Pods_FastChatiOS15.framework in Frameworks */,
+				7AE842E7287523DD00C36B89 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34AD643387FF6C7F71832A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048AEE8E1FF52139CF2E1924 /* Pods_FastChatiOS15.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44C1A8B2C3411B45EC4474FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A9780B95B0DED87DBCBE62 /* Pods-FastChatiOS15.debug.xcconfig */,
+				E8BD639592AA91E6F414B267 /* Pods-FastChatiOS15.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7A2A3C9A284DBD780027D750 = {
 			isa = PBXGroup;
 			children = (
 				7A2A3CA5284DBD780027D750 /* FastChatiOS15 */,
 				7A2A3CA4284DBD780027D750 /* Products */,
+				44C1A8B2C3411B45EC4474FD /* Pods */,
+				34AD643387FF6C7F71832A72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +100,45 @@
 			children = (
 				7A2A3CA6284DBD780027D750 /* AppDelegate.swift */,
 				7A2A3CA8284DBD780027D750 /* SceneDelegate.swift */,
-				7A2A3CAA284DBD780027D750 /* ViewController.swift */,
-				7A2A3CAC284DBD780027D750 /* Main.storyboard */,
+				7A2A3CBA284DBDC70027D750 /* Models */,
+				7A2A3CBC284DBDDE0027D750 /* Views */,
+				7A2A3CBD284DBE520027D750 /* Controllers */,
 				7A2A3CAF284DBD7B0027D750 /* Assets.xcassets */,
 				7A2A3CB1284DBD7B0027D750 /* LaunchScreen.storyboard */,
 				7A2A3CB4284DBD7B0027D750 /* Info.plist */,
+				7AC3E45C284EDD1800F17EF2 /* GoogleService-Info.plist */,
+				7AF282A2284EEFF4006A6384 /* Constants.swift */,
 			);
 			path = FastChatiOS15;
+			sourceTree = "<group>";
+		};
+		7A2A3CBA284DBDC70027D750 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A9D38BD286E906800BAA9C8 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A2A3CBC284DBDDE0027D750 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A3CAC284DBD780027D750 /* Main.storyboard */,
+				7A9D38BF286E999500BAA9C8 /* MessageCell.swift */,
+				7A9D38C0286E999500BAA9C8 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A2A3CBD284DBE520027D750 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A3CBE284DBE9D0027D750 /* WelcomeViewController.swift */,
+				7A2A3CC0284DBEB50027D750 /* RegisterViewController.swift */,
+				7A2A3CC2284DBED50027D750 /* LoginViewController.swift */,
+				7A2A3CC4284DBEEB0027D750 /* ChatViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A2A3CB7284DBD7B0027D750 /* Build configuration list for PBXNativeTarget "FastChatiOS15" */;
 			buildPhases = (
+				C78AAD68C8937569DB10D310 /* [CP] Check Pods Manifest.lock */,
 				7A2A3C9F284DBD780027D750 /* Sources */,
 				7A2A3CA0284DBD780027D750 /* Frameworks */,
 				7A2A3CA1284DBD780027D750 /* Resources */,
+				44E219ECB10453B7D7F4A465 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FastChatiOS15;
+			packageProductDependencies = (
+				7AE842E6287523DD00C36B89 /* IQKeyboardManagerSwift */,
+			);
 			productName = FastChatiOS15;
 			productReference = 7A2A3CA3284DBD780027D750 /* FastChatiOS15.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = 7A2A3C9A284DBD780027D750;
+			packageReferences = (
+				7AE842E5287523DD00C36B89 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 7A2A3CA4284DBD780027D750 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9D38C2286E999500BAA9C8 /* MessageCell.xib in Resources */,
 				7A2A3CB3284DBD7B0027D750 /* LaunchScreen.storyboard in Resources */,
+				7AC3E45D284EDD1800F17EF2 /* GoogleService-Info.plist in Resources */,
 				7A2A3CB0284DBD7B0027D750 /* Assets.xcassets in Resources */,
 				7A2A3CAE284DBD780027D750 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44E219ECB10453B7D7F4A465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastChatiOS15/Pods-FastChatiOS15-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastChatiOS15/Pods-FastChatiOS15-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastChatiOS15/Pods-FastChatiOS15-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C78AAD68C8937569DB10D310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastChatiOS15-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A2A3C9F284DBD780027D750 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2A3CAB284DBD780027D750 /* ViewController.swift in Sources */,
+				7A2A3CC3284DBED50027D750 /* LoginViewController.swift in Sources */,
+				7A2A3CC1284DBEB50027D750 /* RegisterViewController.swift in Sources */,
+				7A2A3CC5284DBEEB0027D750 /* ChatViewController.swift in Sources */,
+				7A2A3CBF284DBE9D0027D750 /* WelcomeViewController.swift in Sources */,
+				7AF282A3284EEFF4006A6384 /* Constants.swift in Sources */,
+				7A9D38BE286E906800BAA9C8 /* Message.swift in Sources */,
 				7A2A3CA7284DBD780027D750 /* AppDelegate.swift in Sources */,
 				7A2A3CA9284DBD780027D750 /* SceneDelegate.swift in Sources */,
+				7A9D38C1286E999500BAA9C8 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		7A2A3CB8284DBD7B0027D750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A9780B95B0DED87DBCBE62 /* Pods-FastChatiOS15.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +442,7 @@
 		};
 		7A2A3CB9284DBD7B0027D750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BD639592AA91E6F414B267 /* Pods-FastChatiOS15.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +490,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AE842E5287523DD00C36B89 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AE842E6287523DD00C36B89 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AE842E5287523DD00C36B89 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A2A3C9B284DBD780027D750 /* Project object */;
 }
